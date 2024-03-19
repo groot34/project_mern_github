@@ -11,7 +11,7 @@ import userRoutes from "./routes/user.routes.js"
 import exploreRoutes from "./routes/explore.routes.js"
 import authRouter from "./routes/auth.route.js"
 
-import connectMongoDB from './db/connectmongoDB.js'
+import connectMongoDB from './db/connectMongoDB.js'
 
 const app = express();
 dotenv.config();
